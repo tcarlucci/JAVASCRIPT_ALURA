@@ -20,3 +20,4 @@ console.log(numero + texto);
 
 
 console.log(numero + Number(texto));
+
