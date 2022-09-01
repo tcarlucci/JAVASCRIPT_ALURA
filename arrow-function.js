@@ -30,6 +30,19 @@ const somaNumerosPequenos = (num1, num2) => {
 
 //* diferente do operador maior ou igual que  >=
 
-// Operador e ||
+//* Operador OU ||
+//* Operador E  &&
+
+
+function verificaNumero(numero) {
+
+    if (numero > 10) {
+      return 'número maior que 10';
+    } else {
+      return 'número não é maior que 10';
+    }
+    }
+   
+   console.log(verificaNumero(9)) //número não é maior que 10
 
 
